@@ -14,14 +14,14 @@ Langton's ant is a two-dimensional Turing machine with a very simple set of rule
 behaviour. It was invented by Chris Langton in 1986 and runs on a square lattice of black and white
 cells. In this context, the ant is a virtual entity (in the program is represented by a red dot) that
 moves on a grid of cells. The cells can be either black (initial state) or white. Langton's ant follows
-two simple rules:
-	1. The ant starts on a grid of white cells, facing in one of four cardinal directions
-	   i.e., north, south, east, or west.
-	2. At each step:
-		a. If the ant is on a white cell, it turns 90 degrees to the right, flips the color of the cell
-		   to black, and moves forward one unit.
-		b. If the ant is on a black cell, it turns 90 degrees to the left, flips the color of the cell to
-		   white, and moves forward one unit.
+two simple rules:<br>
+    1. The ant starts on a grid of white cells, facing in one of four cardinal directions<br>
+       i.e., north, south, east, or west.<br>
+    2. At each step:<br>
+        a. If the ant is on a white cell, it turns 90 degrees to the right, flips the color of the cell<br>
+           to black, and moves forward one unit.<br>
+        b. If the ant is on a black cell, it turns 90 degrees to the left, flips the color of the cell to<br>
+           white, and moves forward one unit.<br>
 
 The initial behaviour (first thousand steps) seems to be chaotic and unpredictable. As the number
 of steps increases (usually more than 10000), the ant will eventually start building a regular,
