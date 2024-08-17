@@ -1,6 +1,6 @@
-#include <SDL2/SDL.h>
 #include <iostream>
 #include <vector>
+#include <SDL2/SDL.h>
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 800;
