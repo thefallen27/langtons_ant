@@ -16,13 +16,13 @@ cells. In this context, the ant is a virtual entity (in the program is represent
 moves on a grid of cells. The cells can be either black (initial state) or white. Langton's ant follows
 two simple rules:<br>
 
-<&ensp><&ensp><&ensp><&ensp>1. The ant starts on a grid of white cells, facing in one of four cardinal directions<br>
-<&ensp><&ensp><&ensp><&ensp><&ensp><&ensp>i.e., north, south, east, or west.<br>
-<&ensp><&ensp><&ensp><&ensp>2. At each step:<br>
-<&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp>a. If the ant is on a white cell, it turns 90 degrees to the right, flips the color of the cell<br>
-<&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp>to black, and moves forward one unit.<br>
-<&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp>b. If the ant is on a black cell, it turns 90 degrees to the left, flips the color of the cell to<br>
-<&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp><&ensp>white, and moves forward one unit.<br>
+<&nbsp><&nbsp><&nbsp><&nbsp>1. The ant starts on a grid of white cells, facing in one of four cardinal directions<br>
+<&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp>i.e., north, south, east, or west.<br>
+<&nbsp><&nbsp><&nbsp><&nbsp>2. At each step:<br>
+<&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp>a. If the ant is on a white cell, it turns 90 degrees to the right, flips the color of the cell<br>
+<&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp>to black, and moves forward one unit.<br>
+<&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp>b. If the ant is on a black cell, it turns 90 degrees to the left, flips the color of the cell to<br>
+<&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp><&nbsp>white, and moves forward one unit.<br>
 
 The initial behaviour (first thousand steps) seems to be chaotic and unpredictable. As the number
 of steps increases (usually more than 10000), the ant will eventually start building a regular,
