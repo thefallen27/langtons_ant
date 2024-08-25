@@ -9,6 +9,14 @@ and Direct3D, as well as audio, keyboard, mouse, and joystick.It is used by vide
 software, emulators, and popular games including many Humble Bundle games which, not promoted,
 I donwload a lot of games from.
 
+I redid the program in Odin, a general-purpose programming language with distinct typing
+built for high performance, modern systems and data-oriented programming. Odin is the C 
+alternative for the Joy of Programming and it is used in multiple games nowadays. As part
+of me learning this programming language, I redid it using this language to see how I fare.
+I faced a lot of issues, and the way to overcome those was through a lot of reading of
+the documentation. Sadly, there aren't a lot of resources available online, so the documentation
+was the only option.
+
 ## The story behind...
 Langton's ant is a two-dimensional Turing machine with a very simple set of rules but complex emergent
 behaviour. It was invented by Chris Langton in 1986 and runs on a square lattice of black and white
@@ -82,6 +90,10 @@ g++ -std=c++20 ant.cpp -lSDL2 -o l_ant
 ./l_ant
 ```
 
+In the case of Odin, things are different. I used the raylib library to get the visualization
+for Langton's ant. All of the documentation and instructions can be found in the links below.
+
+
 ## Notes
 To download the SDL2 library you can visit their website here:<br>
 [SDL2 Library](https://www.libsdl.org/)<br>
@@ -89,6 +101,13 @@ For more on Langton's ant:<br>
 [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant)<br>
 If you don't want to run the program, you can have a look at the implementation here:<br>
 [Langton's ant online](https://www.langtonsant.com/)<br>
+
+To install Odin:<br>
+[Odin Installation Instruction](https://odin-lang.org/docs/install/)
+Odin's github page can be found here:<br>
+[Odin github](https://github.com/odin-lang/Odin/releases/tag/dev-2024-08)
+A few examples that helped me get through the issues and writting of my code:<br>
+[Odin examples](https://github.com/odin-lang/examples)
 
 ## License
 This project is licensed under the MIT license.
