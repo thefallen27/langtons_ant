@@ -103,9 +103,9 @@ If you don't want to run the program, you can have a look at the implementation 
 [Langton's ant online](https://www.langtonsant.com/)<br>
 
 To install Odin:<br>
-[Odin Installation Instruction](https://odin-lang.org/docs/install/)
+[Odin Installation Instruction](https://odin-lang.org/docs/install/)<br>
 Odin's github page can be found here:<br>
-[Odin github](https://github.com/odin-lang/Odin/releases/tag/dev-2024-08)
+[Odin github](https://github.com/odin-lang/Odin/releases/tag/dev-2024-08)<br>
 A few examples that helped me get through the issues and writting of my code:<br>
 [Odin examples](https://github.com/odin-lang/examples)
 
